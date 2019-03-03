@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "576067934869",
+    "firebase_url": "https://fcm-mav-demo.firebaseio.com",
+    "project_id": "fcm-mav-demo",
+    "storage_bucket": "fcm-mav-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576067934869:android:be6b41af731e4ea2",
+        "android_client_info": {
+          "package_name": "fcm.mav.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576067934869-bg6rc0i490otvek3345pbjit294hgra6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAesUmTPqLFQHJT6sV4V0IlN_dFVs9oIMQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
