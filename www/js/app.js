@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 angular.module('starter', ['ionic','starter.services'])
 
-.run(function($ionicPlatform,fcmService) {
+.run(function($ionicPlatform,firebaseService) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs).
@@ -23,10 +23,10 @@ angular.module('starter', ['ionic','starter.services'])
       StatusBar.styleDefault();
     }
     // add fcmLogin Token
-    fcmService.fcmLogin(function(token){
+    firebaseService.firebaseLogin(function(token){
       console.log("token",token)
     })
     // add fcm subscribtion 
-    fcmService.fcmSubscribe();
+    firebaseService.firebaseSubscribe();
   });
 })
